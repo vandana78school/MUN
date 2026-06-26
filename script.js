@@ -39,3 +39,9 @@ nav.style.background="rgba(0,0,0,.5)";
 }
 
 });
+
+function toggleMenu(){
+
+document.getElementById("menu").classList.toggle("active");
+
+}
