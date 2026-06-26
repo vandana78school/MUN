@@ -229,3 +229,141 @@ font-size:48px;
 margin-bottom:15px;
 
 }
+
+/* ==========================
+   Responsive Design
+========================== */
+
+@media (max-width: 992px){
+
+nav{
+padding:15px 30px;
+}
+
+.overlay h1{
+font-size:50px;
+}
+
+.overlay p{
+font-size:20px;
+}
+
+section{
+padding:70px 30px;
+}
+
+}
+
+@media (max-width:768px){
+
+nav{
+
+flex-direction:column;
+
+padding:20px;
+
+}
+
+nav ul{
+
+flex-direction:column;
+
+align-items:center;
+
+margin-top:15px;
+
+}
+
+nav li{
+
+margin:10px 0;
+
+}
+
+.overlay h1{
+
+font-size:38px;
+
+}
+
+.overlay p{
+
+font-size:18px;
+
+}
+
+.timer{
+
+gap:15px;
+
+}
+
+.time-box{
+
+width:110px;
+
+padding:20px;
+
+}
+
+.cards{
+
+grid-template-columns:1fr;
+
+}
+
+.stats-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media (max-width:480px){
+
+.overlay h1{
+
+font-size:30px;
+
+}
+
+.overlay p{
+
+font-size:16px;
+
+}
+
+.btn{
+
+padding:12px 25px;
+
+font-size:15px;
+
+}
+
+section{
+
+padding:60px 20px;
+
+}
+
+.time-box{
+
+width:90px;
+
+}
+
+.time-box span{
+
+font-size:28px;
+
+}
+
+.logo{
+
+font-size:22px;
+
+}
+
+}
